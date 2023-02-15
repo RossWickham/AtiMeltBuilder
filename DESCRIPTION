@@ -1,0 +1,18 @@
+Package: AtiMeltBuilder
+Title: ATI-Meltrate Function Builder
+Version: Beta
+Authors@R: 
+    person("Ross", "Wickham", , "ross.s.wickham@usace.army.mil", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package assists in the development of ATI-meltrate functions for use in snowmelt modeling.
+License: MIT + file LICENSE
+Depends:
+    R (>=4.2)
+Imports:
+    tidyverse,
+    snotelr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    testthat (>= 3.0.0)
+RoxygenNote: 7.2.2
